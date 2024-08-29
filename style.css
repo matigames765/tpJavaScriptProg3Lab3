@@ -1,0 +1,11 @@
+.blue__paragraph{
+  color: blue;
+}
+
+.li:hover{
+  cursor: pointer;
+}
+
+.separacion__superior{
+  margin-top: 2vh;;
+}

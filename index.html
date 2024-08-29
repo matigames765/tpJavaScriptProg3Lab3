@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Trabajo Practico javascript</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- ej 1 introduccion al DOM -->
+     <div>
+      <p id = "parrafo1">Parrafo 1</p>
+     <p id = "parrafo2">Parrafo 2</p>
+     <p id = "parrafo3">Parrafo 3</p>
+     <button id = "buttonParrafos">Cambiar a color azul</button>
+     </div>
+     <!-- ej 2 introduccion al DOM -->
+      <div class = "separacion__superior">
+        <form>
+          <label>Ingresa un texto:</label>
+          <input type="text" id = "textFormulario">
+          <button id = "alertaBoton">Mostrar Alerta</button>
+        </form>
+      </div>
+      <!-- ej 1 eventos en DOM -->
+       <div class = "separacion__superior">
+        <ul>
+          <li id = "elemento 1" class="li">Elemento 1</li>
+          <li id = "elemento 2" class="li">Elemento 2</li>
+          <li id = "elemento 3" class="li">Elemento 3</li>
+          <li id = "elemento 4" class="li">Elemento 4</li>
+        </ul>
+       </div>
+       <!-- ej 2 eventos en DOM -->
+        <div class = "separacion__superior">
+          <input id = "textField" type="text" placeholder="Ingresa algo">
+          <button id = "buttonDesabilitar">Deshabilitar Campo</button>
+          <button id = "buttonHabilitar">Habilitar Campo</button>
+        </div>
+        <!-- ej 1 LocalStorage -->
+         <div class = "separacion__superior">
+          <form>
+            <div>
+              <label>Correo Electronico:</label>
+              <input id = "email" type="email" placeholder="example@gmail.com">
+              <button id = "guardarCorreo">Guardar Correo</button>
+            </div>
+            <div>
+              <label id = "emailGuardado"></label>
+              <button id = "buttonEliminarEmail"></button>
+            </div>
+          </form>
+         </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
